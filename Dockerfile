@@ -1,4 +1,4 @@
-ARG DOCKER_REGISTRY=docker.io
+ARG FROM_IMG_REGISTRY=docker.io
 ARG FROM_IMG_REPO=qspack
 ARG FROM_IMG_NAME="centos-base"
 ARG FROM_IMG_TAG="missing-compiler-import-v2"
