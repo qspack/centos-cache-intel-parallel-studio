@@ -1,0 +1,2 @@
+mirrors:
+  manual: file:///usr/local/src/spack/mirror/
