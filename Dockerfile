@@ -6,4 +6,4 @@ ARG FROM_IMG_HASH=""
 FROM ${FROM_IMG_REGISTRY}/${FROM_IMG_REPO}/${FROM_IMG_NAME}:${FROM_IMG_TAG}${DOCKER_IMG_HASH}
 
 COPY mirrors.yaml /root/.spack/
-RUN /opt/spack/bin/spack mirror create -d mirror intel-parallel-studio@cluster.2018.1  && mv /mirror /usr/local/src/spack/mirror
+RUN /opt/spack/bin/spack mirror create -d mirror intel-parallel-studio@cluster.2018.1  && mv /mirror /opt/spack/mirror
